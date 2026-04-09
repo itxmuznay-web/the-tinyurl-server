@@ -1,5 +1,5 @@
 import { URLs } from "../Models/url.js";
-import { getCache } from "../Utils/redis.js";
+import { getCache } from "../utils/redis.js";
 
 export const RedirectURL = async (req, res) => {
   const { shortId } = req.params;

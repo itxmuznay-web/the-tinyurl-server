@@ -1,10 +1,10 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import { ConnectMongoDb } from "./Utils/mongodb.js";
+import { ConnectMongoDb } from "./utils/mongodb.js";
 import URLRoute from "./Routes/urls.js";
-import { generateShortId } from "./Utils/Keys.js";
-import { connectRedis } from "./Utils/redis.js";
+import { generateShortId } from "./utils/keys.js";
+import { connectRedis } from "./utils/redis.js";
 
 dotenv.config();
 

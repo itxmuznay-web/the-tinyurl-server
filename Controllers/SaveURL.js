@@ -1,5 +1,5 @@
 import { URLs } from "../Models/url.js";
-import { generateShortId } from "../Utils/Keys.js";
+import { generateShortId } from "../utils/keys.js";
 
 export const SaveURL = async (req, res) => {
   let { longUrl } = req.body;
